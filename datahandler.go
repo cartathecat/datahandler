@@ -6,7 +6,7 @@ package datahandler
 /*
 	Contributors:
 		Mick Moriarty
-		v1.0.0
+		v0.0.1
 */
 import (
 	"encoding/json"
@@ -59,7 +59,9 @@ func (key *PortID) GetPort() (Port, error) {
 	return portlookup, err
 }
 
-// ListOfPorts ...
+/*
+ListOfPorts functions to return all port id's
+*/
 func ListOfPorts() []PortID {
 
 	resp := make([]PortID, 0)
