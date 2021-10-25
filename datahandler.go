@@ -28,7 +28,7 @@ type Port struct {
 	Coordinates []float64 `json:"coordinates"` // Long/Lat coordinates
 	Province    string    `json:"province"`    // Province
 	TimeZone    string    `json:"timezone"`    // Time zone
-	Unlocks     []string  `json:"unlocks"`     // Unlocks
+	Unlocs      []string  `json:"unlocs"`      // Unlocs
 	Code        string    `json:"code"`        // Code
 }
 
